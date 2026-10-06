@@ -1,11 +1,11 @@
-# TV Explorer
+# WatchVenture
 
 Aplikasi mobile Android untuk mencari dan melihat informasi film / serial televisi dari **TVmaze API**.
 Dibangun dengan **Kotlin, Jetpack Compose, Material 3, Navigation Compose, dan arsitektur MVVM**.
 
 ## Deskripsi Singkat
 
-TV Explorer memiliki dua halaman:
+WatchVenture memiliki dua halaman:
 
 1. **Home Screen** – judul aplikasi, search bar, dan daftar film/serial (`LazyColumn`). Saat query kosong, aplikasi menampilkan daftar default dari API. Saat pengguna mengetik, aplikasi mengambil hasil pencarian dari API (dengan debounce 500 ms).
 2. **Detail Screen** – menampilkan judul, tahun rilis, rating, genre, dan ringkasan dari show yang dipilih.
@@ -19,8 +19,6 @@ Fitur: pencarian berdasarkan judul, state loading, state error + tombol *Coba la
 | Home | Pencarian | Detail |
 |------|-----------|--------|
 | ![Home](screenshots/home.png) | ![Search](screenshots/search.png) | ![Detail](screenshots/detail.png) |
-
-GIF demo: `![Demo](screenshots/demo.gif)`
 
 ## Struktur MVVM
 
