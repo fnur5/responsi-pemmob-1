@@ -23,7 +23,7 @@ Fitur: pencarian berdasarkan judul, state loading, state error + tombol *Coba la
 ## Struktur MVVM
 
 ```
-com.example.tvexplorer
+com.example.watchventure
 ├── MainActivity.kt                 // entry point, memasang theme + navigation
 ├── navigation/
 │   └── AppNavigation.kt            // NavHost: Home <-> Detail
